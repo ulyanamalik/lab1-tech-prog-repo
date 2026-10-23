@@ -38,11 +38,19 @@ def main():
     except ValueError as e:
         print(f"Ошибка при создании: {e}")
 
+    
     print("\n===== Фабричный метод (Factory Method) =====")
+    # Создаем героя (используем того, что собрали в Строителе)
     forest = Forest()
     lair = DragonLair()
-    forest.explore()
-    lair.explore()
+    
+    # Герой идет в лес (Лес сам создает Гоблина)
+    gold_from_forest = forest.explore(hero)
+    
+    # Герой идет в логово (Логово само создает Дракона)
+    gold_from_lair = lair.explore(hero)
+    
+    print(f"\nИтог: герой {hero.name} вернулся с {gold_from_forest + gold_from_lair} золота.")
 
 if __name__ == "__main__":
     main()
