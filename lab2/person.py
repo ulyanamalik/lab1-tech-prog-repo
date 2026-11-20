@@ -3,7 +3,6 @@ from pet import Pet
 
 
 class Person:
-    """Человек. У него может быть питомец (Pet) или не быть."""
 
     def __init__(self, name: str, pet: Optional[Pet] = None) -> None:
         self._name = name

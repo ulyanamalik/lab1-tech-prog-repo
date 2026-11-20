@@ -2,7 +2,6 @@ from animal import Animal
 
 
 class Parrot(Animal):
-    """Попугай. Возраст: 1 год = 5 человеческих."""
 
     def __init__(self, name: str, age: int) -> None:
         super().__init__(name, age)

@@ -2,7 +2,7 @@ from pet import Pet
 
 
 class Animal(Pet):
-    """Общее для всех животных: имя и возраст."""
+
 
     def __init__(self, name: str, age: int) -> None:
         self._name = name

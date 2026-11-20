@@ -1,0 +1,30 @@
+[
+  {
+    "name": "ульяна",
+    "heroClass": "mage",
+    "level": 2,
+    "experience": 25,
+    "gold": 146,
+    "weapon": {
+      "code": "goblin-cleaver",
+      "enchantments": []
+    },
+    "armor": {
+      "code": "linen-robe",
+      "enchantments": []
+    },
+    "inventory": [
+      {
+        "code": "ember-staff",
+        "enchantments": []
+      },
+      {
+        "code": "apprentice-staff",
+        "enchantments": []
+      }
+    ],
+    "achievements": [
+      "first-blood"
+    ]
+  }
+]

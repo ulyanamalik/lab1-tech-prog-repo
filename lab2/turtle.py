@@ -2,7 +2,7 @@ from animal import Animal
 
 
 class Turtle(Animal):
-    """Черепаха. Возраст: 1-й год = 15 чел., дальше по 2."""
+    
 
     def __init__(self, name: str, age: int) -> None:
         super().__init__(name, age)
